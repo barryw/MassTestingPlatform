@@ -13,7 +13,7 @@ A special thanks goes to these core contributors:
 - [Brian Wilson](https://github.com/Juvenall/)
 - [Chris Raheb](https://github.com/craheb)
 - [Dave Fisher](https://www.linkedin.com/in/fisherdave/)
-- [David Juan](https://github.com/davidajuan)
+- [David Juan](https://www.davidjuan.com)
 - [David Negron](https://github.com/onelight)
 - [Janina Phillips](https://github.com/janinavelasco9)
 - [Matt Mastej](https://github.com/MataoDesigns)
