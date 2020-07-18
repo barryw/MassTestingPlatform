@@ -29,6 +29,7 @@ services:
     environment:
       - DB_HOST=database:3306
       - APP_URL=localhost
+      - AWS_REGION=us-east-1
     depends_on:
       - database
     env_file:
