@@ -26,7 +26,7 @@ class Sns_sms {
     public function __construct() {
         $this->client = new SnsClient([
             'version' => 'latest',
-            'region'  => $_ENV['AWS_REGION'] ?? 'us-east-1',
+            'region'  => $_SERVER['AWS_REGION'] ?? 'us-east-1',
             'http' => [ 'verify' => '/etc/ssl/certs/ca-certificates.crt' ],
         ]);
     }
