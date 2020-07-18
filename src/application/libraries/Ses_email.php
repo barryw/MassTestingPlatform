@@ -24,7 +24,7 @@ class Ses_email {
     public function __construct() {
         $this->client = new SesClient([
             'version' => 'latest',
-            'region'  => 'us-east-1',
+            'region'  => $_ENV['AWS_REGION'] ?? 'us-east-1',
             'http' => [ 'verify' => '/etc/ssl/certs/ca-certificates.crt' ],
         ]);
     }
